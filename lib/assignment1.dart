@@ -147,9 +147,9 @@ class Bank {
 void main() {
   Bank bank = Bank();
 
-  var acc1 = SavingsAccount("SA001", "John Doe", 1200);
-  var acc2 = CheckingAccount("CA001", "Mike Smith", 200);
-  var acc3 = PremiumAccount("PA001", "Sarah Lee", 15000);
+  var acc1 = SavingsAccount("da0011", "Dipen Tamang", 1320);
+  var acc2 = CheckingAccount("da0012", "Rabin Tamang", 360);
+  var acc3 = PremiumAccount("da0013", "Jamling Tamang", 11000);
 
   bank.addAccount(acc1);
   bank.addAccount(acc2);
