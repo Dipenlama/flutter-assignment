@@ -56,7 +56,6 @@ class SavingsAccount extends BankAccount implements InterestBearing {
       print("Cannot withdraw! Minimum balance of \$500 required.");
       return;
     }
-
     withdrawalCount++;
     updateBalance(balance - amount);
   }
